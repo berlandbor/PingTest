@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Graph</title>
+    <!-- Подключение библиотеки Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ping Graph</h1>
+    <hr>
+   <p>
+     Внимание! Этот инструмент предназначен для определения качества соединения по интернету вашего устройства к серверу Google. Если соединение хорошее, то у вас хороший интернет.
+   </p>
+   </header> 
+    <!-- Создание элемента для отображения графика -->
+   <section>
+    <div id="pingChart"></div>
+    <div id="info">
+    <p id="ping"></p>
+    <p id="interpretation"></p>
+    <p id="status"></p>
+    </div>
+    </section>
+    <footer>
+       <h3>berlandbor ❤️</h3>
+    </footer>
+
+    <script src="Ping.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* Заголовок */
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+/* Контейнер графика */
+#pingChart {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Стиль для элемента с id="ping" */
+#ping {
+    font-size: 18px;
+    color: #00aaff;
+}
+
+/* Стиль для элемента с id="status" */
+#status {
+    font-size: 18px;
+    color: #007700;
+}
+
+/* Стиль для элемента с id="interpretation" */
+#interpretation {
+    font-size: 18px;
+    color: #ff5500;
+}
+
+p{
+  color: red;
+  margin: 10px;
+}
+
+header {
+ border: 1px solid black;
+  
+}
+section {
+  border: 1px solid green;
+}
+
+#info {
+  
+  border: 1px solid blue;
+  
+}
